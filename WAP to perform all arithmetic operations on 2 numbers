@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main() 
+{
+   int s,dif,p,divi,a,b;
+   printf("enter two numbers");
+   scanf("%d%d",&a,&b);
+   s=a+b;
+   dif=a-b;
+   p= a*b;
+   divi=a/b;
+   printf("sum is %d",s);
+   printf("difference is %d",dif);
+   printf("product is %d",p);
+   printf("division is %d",divi);
+   return 0;
+}
+   
+   
