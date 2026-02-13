@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+  int a,b,c,d,e;
+int sum;
+float percentage;
+printf("Enter marks of 5 subjects");
+scanf("%d%d%d%d%d",&a,&b,&c,&d,&e);
+sum=a+b+c+d+e;
+percentage=(sum*100/500);
+printf("Sum is%d\n",sum);
+printf("Percentage is %f\n",percentage);
+return 0;
+}
