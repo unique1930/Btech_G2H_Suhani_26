@@ -1,0 +1,27 @@
+int main()
+{
+    int  a,b,s,diff,p;
+    float div;
+    char ch;
+    printf("enter two numbers\n");
+    scanf("%d%d",&a,&b);
+    printf("enter a character\n");
+    scanf(" %c",&ch);
+    switch(ch)
+    {
+       case '+':s=a+b;
+             printf("Sum is %d",s);
+             break;
+      case '-': diff=a-b;
+              printf("difference is %d",diff);
+             break;
+     case '*': p=a*b;
+             printf("product is %d",p);
+             break;
+     case '/': div=a/b;
+             printf("division is %f",div);
+             break;
+     default: printf("invalid input");
+                          
+}
+}
