@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include<string.h>
+int main() 
+ { 
+  char  r[50];
+  
+   printf("enter string");
+   scanf("%s",r);
+   printf("%d",strlen(r));
+  
+       return 0;
+       
+   }
+   
+          
+    
