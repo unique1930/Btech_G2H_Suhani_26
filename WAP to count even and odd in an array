@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main() 
+ { 
+    int a[20],n,c=0,d=0,i;
+      printf("enter size of an array\n");
+     scanf("%d",&n);
+     printf("enter elements\n");
+     for( i=1;i<=n;i++)
+    {
+       scanf("%d",&a[i]);
+    }
+    for( i=1;i<=n;i++)
+    {
+   if(a[i]%2==0)
+   c++;
+   else
+   d++;
+    }
+   printf("even numbers are %d\n",c);
+   printf("odd numbers are %d",d);
+    return 0;
+}
