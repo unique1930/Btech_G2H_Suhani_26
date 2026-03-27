@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() 
+ { 
+   int n,s,p=1;
+   printf("enter number");
+   scanf("%d",&n);
+   printf("enter power ");
+   scanf("%d",&s);
+   for(int i=1;i<=s;i++)
+   {
+       p=p*n;
+       
+   }
+   printf("power is %d",p);
+       return 0;
+       
+   }
