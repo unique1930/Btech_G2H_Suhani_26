@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main() 
+ { 
+   int a,b,p;
+   printf("enter two numbers\n");
+   scanf("%d%d",&a,&b);
+   p=a*b;
+   while(a>0&&b>0)
+   {
+       if(a>b)
+           a=a-b;
+           else
+           b=b-a;
+       }
+       if(a==0)
+       {
+           printf("GCD OF 2 NUMBERS IS %d\n",b);
+           printf("LCM OF 2 NUMBERS IS %d\n",p/b);
+       }
+        else
+        {
+           printf("GCD OF 2 NUMBERS IS %d\n",a);
+           printf("LCM OF 2 NUMBERS IS %d\n",p/a);
+        }
+       
+       return 0;    
+        }
+   
+ 
