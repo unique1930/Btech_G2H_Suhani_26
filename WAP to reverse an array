@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() 
+ { 
+    int a[20],n;
+      printf("enter size of an array\n");
+     scanf("%d",&n);
+     printf("enter elements\n");
+     for(int i=1;i<=n;i++)
+    {
+       scanf("%d",&a[i]);
+    }
+    printf("reverse of an array is\n");
+    for(int i=n;i>=1;i--)
+    {
+       printf("%d\n",a[i]);
+    }
+       
+ return 0;
+}
